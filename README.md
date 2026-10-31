@@ -14,6 +14,17 @@ AiGhost is an evolving software ecosystem with three connected tracks:
 
 The opportunity is to explore a user-controlled, local-first product ecosystem while validating the technical, security, operational, and hardware requirements step by step.
 
+## Find and follow the project
+
+This public repository is the entry point for people researching the AiGhost technology direction. Useful GitHub search terms include:
+
+`local-first AI` · `privacy-first software` · `edge computing` · `user-controlled infrastructure` · `opt-in home nodes` · `distributed systems` · `optical networking research` · `hybrid photonic-electronic systems`
+
+These are discovery keywords describing the project's areas of work, not claims that every technology is already deployed or production-ready.
+
+Share this repository as the public starting point:
+**https://github.com/karuott888999-ui/AiGhost-Investor-Overview**
+
 ## Explore the overview
 
 - [Technology Overview](TECHNOLOGY_OVERVIEW.md) — product architecture, local-first design, Home Node and Neuroplasma.
