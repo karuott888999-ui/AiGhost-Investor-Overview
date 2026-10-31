@@ -1,14 +1,15 @@
 # Validation, Evidence, and Known Limits
 
-**Evidence snapshot: 2026-10-31.** This file reports what was visible in the connected GitHub repository at the time of review. It is not a certification or production-readiness statement.
+**Evidence snapshot: 31 October 2026.** This file reports what was visible in the connected development materials at the time of review. It is not a certification or production-readiness statement.
 
-## Repository evidence
+## Evidence reviewed
 
-- Repository: `karuott888999-ui/Ghost` — private.
-- Reviewed development branch: `feat/ghost-home-node-self-dev`.
-- Reviewed commit: `f82532cc47c3ad620cd2b36202940f1507dcbbd1`.
-- Neuroplasma engineering note: `backend/NEUROPLASMA_OPTICAL_FABRIC.md`, dated 2026-10-30.
-- Home-node architecture and participation policy: `docs/GHOST_HOME_NODE_AND_SELF_DEV.md` and `docs/HOST_A_NODE_RULES.md`.
+- A private development repository and its active self-development workstream.
+- A Neuroplasma engineering note dated 30 October 2026.
+- Home-node architecture and host-a-node participation rules.
+- GitHub commit status information for the reviewed development snapshot.
+
+The private repository name, branch names, implementation paths, and internal commit identifiers are intentionally not repeated in this public showcase.
 
 ## Test evidence recorded in project documentation
 
@@ -20,13 +21,13 @@ The Neuroplasma engineering note records:
 - 63 focused tests passing together;
 - 119 tests passing in a wider documented regression selection.
 
-These are results recorded in the project note. They were not independently re-run against the latest reviewed commit as part of this investor-pack preparation. A dated, reproducible test run should be captured before formal technical diligence.
+These are results recorded in the engineering note. They were not independently re-run against the reviewed snapshot as part of this investor-pack preparation. A dated, reproducible test run should be captured before formal technical diligence.
 
 ## Current GitHub status observed
 
-For commit `f82532cc47c3ad620cd2b36202940f1507dcbbd1`, the GitHub status endpoint returned three Vercel contexts — `aighost-test`, `aighost-web`, and `ghost` — each with state `failure` and description **“Account is blocked.”** The check-runs endpoint returned zero check runs for this commit.
+For the reviewed development snapshot dated 31 October 2026, the GitHub status endpoint returned three Vercel contexts — web, test, and application — each with state `failure` and description **“Account is blocked.”** The check-runs endpoint returned zero check runs for that snapshot.
 
-This is a deployment/account status failure, not evidence that the Neuroplasma unit tests failed. It nevertheless means this commit does not have a passing Vercel status and this overview does not claim a verified current production deployment.
+This is a deployment/account status failure, not evidence that the Neuroplasma unit tests failed. It nevertheless means the reviewed snapshot does not have a passing Vercel status. This public overview does not claim a verified current production deployment.
 
 ## Not yet demonstrated
 
@@ -36,7 +37,7 @@ This is a deployment/account status failure, not evidence that the Neuroplasma u
 - A signed, fully automated public Windows/macOS node installer.
 - Federated node peering between different AiGhost accounts.
 - Guaranteed uptime, packet delivery, performance at scale, or independent security certification.
-- A current production deployment verified from the latest commit.
+- A current production deployment verified from the reviewed development snapshot.
 
 ## Diligence checklist before commercial release
 
