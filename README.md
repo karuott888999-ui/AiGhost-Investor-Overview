@@ -27,6 +27,8 @@ Share this repository as the public starting point:
 
 ## Explore the overview
 
+- [Complete AiGhost Ecosystem Overview](AIGHOST_COMPLETE_OVERVIEW.md) — the full product vision: social platform, AI, camera, games, marketplace, Home Node, mirrors, coordinators, Neuroplasma, security and roadmap.
+
 - [Technology Overview](TECHNOLOGY_OVERVIEW.md) — product architecture, local-first design, Home Node and Neuroplasma.
 - [Validation & Known Limits](VALIDATION_AND_LIMITS.md) — what is documented, what has not yet been demonstrated, and current release blockers.
 - [Evidence-Led Roadmap](ROADMAP.md) — staged engineering and validation priorities.
